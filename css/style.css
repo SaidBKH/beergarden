@@ -1,0 +1,85 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "oswald";
+}
+
+#container{
+    height: 100vh;
+   
+}
+
+.en-tete{
+    font-family: "Oswald";
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.9);  
+}
+
+.icons{
+    cursor: pointer;
+    display: none;
+    color: white;
+    font-size: 50px;
+}
+
+
+.navigateur{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.navList{
+    display: flex;
+    list-style: none;
+    font-size: 22px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navlink{
+    color: white;
+}
+.navlink:hover{
+    color: rgb(209, 206, 201);
+}
+
+.navLogo-img{
+    color: white;
+}
+
+.navElement-icon{
+    font-size: 25px;
+    margin: 20px;
+    color: white;
+}
+
+.navElement-icon:hover{
+    color: rgb(209, 206, 201);
+    cursor: pointer;
+}
+
+.navElement{
+    margin: 20px;
+    color: white;
+    
+}
+
+
+
+
+
+
+
